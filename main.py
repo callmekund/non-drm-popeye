@@ -313,7 +313,7 @@ async def txt_handler(bot: Client, m: Message):
     a_name = input5.text
     await input5.delete(True)
         
-    await editable.edit("╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[`🕸️​🇸​​🇵​​🇮​​🇩​​🇾​🕸️`]⚡⌋━━➣")
+    await editable.edit("╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[𝐆𝐚𝐮𝐫𝐚𝐯 𝐕𝟑𝐍𝐎𝐌 ❤️](https://t.me/call_me_kund)⚡⌋━━➣")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     quality = f"{raw_text2}p"
@@ -341,9 +341,9 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message
-    credit = "️𝐆𝐚𝐮𝐫𝐚𝐯 𝐕𝟑𝐍𝐎𝐌"
+    credit = "️𝐆𝐚𝐮𝐫𝐚𝐯"
     if raw_text3 == '1':
-        CR = '𝐆𝐚𝐮𝐫𝐚𝐯 𝐕𝟑𝐍𝐎𝐌'
+        CR = '𝐆𝐚𝐮𝐫𝐚𝐯'
     elif raw_text3:
         CR = raw_text3
     else:
@@ -580,7 +580,7 @@ async def txt_handler(bot: Client, m: Message):
                        f"🔹𝙵𝚊𝚒𝚕𝚎𝚍 𝙻𝚒𝚗𝚔𝚜 » {failed_count}\n"
                        f"✅𝚂𝚝𝚊𝚝𝚞𝚜 » 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍\n"
                        f"━━━━━━━━━━━━━━━━━━━━\n"
-                       f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝐆𝐚𝐮𝐫𝐚𝐯 𝐕𝟑𝐍𝐎𝐌 ❤️](https://t.me/call_me_kund)")
+                       f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝐆𝐚𝐮𝐫𝐚𝐯]")
     
 
 @bot.on_message(filters.command(["cp"]) )
