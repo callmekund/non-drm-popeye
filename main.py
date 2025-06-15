@@ -255,7 +255,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝗦𝗣𝗜𝗗𝗬 🕸️"
+    credit = f"𝐆𝐚𝐮𝐫𝐚𝐯 𝐕𝟑𝐍𝐎𝐌"
     pdf_count = 0
     img_count = 0
     zip_count = 0
@@ -402,7 +402,7 @@ async def txt_handler(bot: Client, m: Message):
                         url = re.search(r"(https://.*?playlist.m3u8.*?)\"", text).group(1)
 
             elif 'videos.classplusapp' in url or "tencdn.classplusapp" in url or "webvideos.classplusapp.com" in url or "media-cdn-alisg.classplusapp.com" in url or "videos.classplusapp" in url or "videos.classplusapp.com" in url or "media-cdn-a.classplusapp" in url or "media-cdn.classplusapp" in url or "alisg-cdn-a.classplusapp" in url:
-             url = requests.get(f'https://api.classplusapp.com/cams/uploader/video/jw-signed-url?url={url}', headers={'x-access-token': 'eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'}).json()['url']
+             url = requests.get(f'https://api.classplusapp.com/cams/uploader/video/jw-signed-url?url={url}', headers={'x-access-token': 'eyJjb3Vyc2VJZCI6IjQxOTk4MCIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo5MTgzLCJjYXRlZ29yeUlkIjpudWxsfQ=='}).json()['url']
                                         
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
              url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
@@ -549,7 +549,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━━🖼️𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 » <a href="{raw_text6}">__**Thumb Link**__</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ <a href="https://t.me/call_me_kund">[Gaurav Banna]</a>"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 🤍𝐆𝐚𝐮𝐫𝐚𝐯 𝐕𝟑𝐍𝐎𝐌🤍"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
